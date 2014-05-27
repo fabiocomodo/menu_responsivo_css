@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Menu DropDown Responsivo</title>
+
+<!-- Jquery -->
+<script src="javascript/jquery-1.10.2.min.js" type="text/javascript"></script>
+
+<!-- Estilos -->
+<link rel="stylesheet" href="css/normalize.css"   type="text/css"/> <!-- reset        -->
+<link rel="stylesheet" href="css/grid.css"        type="text/css"/> <!-- grid         -->
+<link rel="stylesheet" href="css/estilo_menu.css" type="text/css"/> <!-- estilo menu  -->
+
+<!-- viewport -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+<!-- fonts -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,400italic,700,900' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<!-- xxxxxxxxxxxxxxxxxxx MENU xxxxxxxxxxxxxxxxxxx -->
+
+<div class="container"><!-- container_inicio -->
+<div class="grid_24" id="menu"><!-- menu_inicio -->
+
+<!-- botao_mobile -->
+<a class="toggleMenu" href="#">Menu</a> 
+
+<ul class="nav"> <!-- UL_principal_nicio -->
+
+<!-- XXXXXXXXXX Item 1 - NORMAL XXXXXXXXXX -->
+<li>
+<a href="#">Item 1</a>
+</li>
+
+<!-- XXXXXXXXXX Item 2 - SUB ITENS L1 XXXXXXXXXX -->
+
+<li><!-- topico nicio -->
+<a href="#">Item 2</a>
+
+<ul><!-- sub nivel inicio -->
+
+<li>
+<a href="#">Sub item 2.1</a>
+</li>
+
+<li>
+<a href="#">Sub item 2.2</a>
+</li>
+
+<li>
+<a href="#">Sub item 2.3</a>
+</li>
+
+</ul><!-- sub nivel fim -->
+
+</li><!-- topico fim -->
+
+<!-- XXXXXXXXXX Item 3 XXXXXXXXXX -->
+
+<li><!-- topico nicio -->
+<a href="#">Item 3</a>
+
+<ul><!-- sub nivel inicio -->
+
+<li>
+<a href="#">Sub item 3.1</a>
+  <ul> <!-- sub sub nivel inicio -->
+   <li><a href="#">Sub item 3.1.1</a></li>
+   <li><a href="#">Sub item 3.1.2</a></li>
+  </ul><!-- sub subnivel fim -->
+</li>
+
+<li>
+<a href="#">Sub item 3.2</a>
+  <ul> <!-- sub sub nivel inicio -->
+   <li><a href="#">Sub item 3.2.1</a></li>
+   <li><a href="#">Sub item 3.2.2</a></li>
+   <li><a href="#">Sub item 3.2.3</a></li>
+   <li><a href="#">Sub item 3.2.4</a></li>
+  </ul><!-- sub subnivel fim -->
+</li>
+
+</ul><!-- sub nivel fim -->
+
+</li><!-- topico fim -->
+
+<!-- XXXXXXXXXX Item 4 XXXXXXXXXX -->
+
+	<li>
+		<a href="#">Item 4</a>
+	</li>
+
+<!-- XXXXXXXXXX Item 5 XXXXXXXXXX -->
+
+	<li>
+		<a href="#">Item 5</a>
+	</li>
+
+</ul> <!-- UL_principal_fim -->
+
+</div><!-- menu_fim -->
+</div><!-- container_fim -->
+
+<!-- xxxxxxxxxxxxxxxxxxx MENU JS xxxxxxxxxxxxxxxxxxx -->
+<script type="text/javascript" src="javascript/menu.js"></script>
+
+</body>
+</html>
